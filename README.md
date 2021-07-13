@@ -34,7 +34,7 @@ Tracking the points specified in demo_point_tracking.py.
  ![alt text](./results/res_track.jpg)
  
 
-## Comperising with [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork)
+## Comparing with [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork)
 
 Since there are no analogous works, we provide a comparison with the state-of-the-art method for keypoint feature matching SuperGlue. We tested our model on 2 datasets: COCO2014, and HPatches under different levels of  light intensity, and projective transforms. For the evaluation metrics we selected 1) matching accuracy: the match is correct if distance between predicted and real position of the point is less than 6 pixels, and 2) number of correctly matched keypoints.
 
@@ -54,4 +54,8 @@ Since there are no analogous works, we provide a comparison with the state-of-th
 | COCO test hard homographies | 240 | 346 |
 | COCO test hard homographies  + illumination changes | 195 | 300 |
 | Hpatches hard homographies | 222 | 340| 
+
+## Qualitative results
+
+![alt text](./results/SG.jpg)
 
