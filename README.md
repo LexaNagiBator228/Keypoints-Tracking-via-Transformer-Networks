@@ -46,3 +46,12 @@ Since there are no analogous works, we provide a comparison with the state-of-th
 | COCO test hard homographies  + illumination changes| 89.0% | 87.2% | 88.8% |
 | Hpatches hard homographies | 91.4% | 90.5% | 91.5% |
 
+
+
+| Results for number of correctly  matched  point | SuperGlue, number of correctly  matched  points out of 512 | Our model, number of correctly matched points out of 512 |
+| :--- | :--- | :--- |
+| COCO test easy homographies | 249 | 358 | 
+| COCO test hard homographies | 240 | 346 |
+| COCO test hard homographies  + illumination changes | 195 | 300 |
+| Hpatches hard homographies | 222 | 340| 
+
