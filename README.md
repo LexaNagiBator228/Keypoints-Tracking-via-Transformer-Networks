@@ -57,5 +57,5 @@ Since there are no analogous works, we provide a comparison with the state-of-th
 
 ## Qualitative results
 
-![alt text](./results/SG.jpg)
+![alt text](./results/SG.png)
 
