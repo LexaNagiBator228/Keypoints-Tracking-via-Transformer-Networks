@@ -55,7 +55,3 @@ Since there are no analogous works, we provide a comparison with the state-of-th
 | COCO test hard homographies  + illumination changes | 195 | 300 |
 | Hpatches hard homographies | 222 | 340| 
 
-## Qualitative results
-
-![alt text](./results/SG.png)
-
