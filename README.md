@@ -11,17 +11,26 @@ Our approach is hierarchical since a coarse keypoint tracking is accurately refi
 ## Demo
 
 ### Image matching 
+
 Match two image using [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork) descriptors 
 (Basically tracking keypoints extracted by SuperPoint  ) 
 
-- python demo_2_im.py --image1_path =path1 --image2_path=path2
-- Use python demo_2_im.py if you want to save the result\
+- python demo_2_im.py --image1_path=path1 --image2_path=path2
+- python demo_2_im.py                                          if you want to save the result\
 
-For example :
+For example : 
 
 python demo_2_im.py --image1_path ="./media/im1.jpg" --image2_path="./media/im2.jpg"
 
 ![alt text](./results/res.jpg)
 
 
- ### Image matching 
+ ### Point Tracking
+
+Tracking the points specified in demo_point_tracking.py
+
+ 
+- python demo_point_tracking.py --image1_path=path1 --image2_path=path2
+
+ ![alt text](./results/res_track.jpg)
+ 
