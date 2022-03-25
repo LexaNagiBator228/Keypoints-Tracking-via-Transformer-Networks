@@ -2,6 +2,10 @@
 
 Model for sparse keypoints tracking across images using transformer networks
 
+
+Paper : https://arxiv.org/abs/2203.12848
+
+
 Our approach is hierarchical since a coarse keypoint tracking is accurately refined by a second transformer network. The model can be be used for both: image matching, and keypoint tracking 
 
 ## Architecture
